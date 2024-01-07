@@ -29,7 +29,7 @@ header {
 .banner-headline {
     color: #272727;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .banner-paragraph-div {
@@ -294,4 +294,43 @@ main {
     width: 150px;
     height: 64px;
     flex-shrink: 0;
+}
+
+footer {
+    text-align: center;
+    background: #111010;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer h2 {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 1%;
+}
+
+footer h2 span {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.f-p-1 {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-bottom: 1%;
+}
+
+.f-p-2 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
 }
